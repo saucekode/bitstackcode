@@ -332,6 +332,13 @@ section,
   color: var(--clr-primary-500);
 } 
 
+.logo-design{
+  text-decoration: none;
+  font-size: 1.3em;
+  color: var(--clr-primary-400);
+  font-weight: bold;
+}
+
 @media (min-width: 45em) {
   .snippet {
     grid-template-areas:
