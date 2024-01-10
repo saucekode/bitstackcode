@@ -12,10 +12,10 @@
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-200: hsla(169, 70%, 95%, 1);
-  --clr-primary-300: hsla(169, 100%, 39%, 1);
-  --clr-primary-400: hsla(169, 100%, 26%, 1);
-  --clr-primary-500: hsla(169, 100%, 16%, 1);
+  --clr-primary-200: #e3bc9a4a;
+  --clr-primary-300: #E3BC9A;
+  --clr-primary-400: #E3BC9A;
+  --clr-primary-500: #E3BC9A;
 
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
@@ -227,9 +227,8 @@ section,
 
 .site-footer {
   --logo-color: currentColor;
-  padding: 2em 0;
-  color: var(--clr-neutral-100);
-  background-color: var(--clr-primary-500);
+  padding: 4em 0;
+  color: #E3BC9A;
   text-align: center;
 }
 
@@ -391,4 +390,11 @@ section,
 .btn--neutral:focus {
   color: var(--clr-neutral-100);
   background-color: var(--clr-neutral-900);
+}
+
+.continue{
+  text-decoration: none;
+  line-height: 3px;
+  color: #E3BC9A;
+  
 }
