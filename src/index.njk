@@ -1,48 +1,21 @@
 ---
-title: example
-layout: base.njk
+title: bitstackc<>de
+layout: 'base.njk'
 ---
-<header class="page-header">
-  <div class="container">
-    <div class="page-header__content">
-      <a href="index.html" class="logo-design">
-        bitstackc<>de
-      </a>
-      <nav>
-        
-        <ul role="list" class="nav-list flex-group">
-          <li>
-            <a href="about.html">about</a>
-          </li>
-          <li>
-            <a href="all-articles.html">notes</a>
-          </li>
-          <li>
-            <a href="contact.html">reach me</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
+
+<section id="featured-articles">
+  <div class="container flow">
+    <ul role="list" class="articles__list flow">
+      <li>
+        <article class="snippet">
+          <div>
+            <h3 class="snippet__title"><a href="/blog/my-first-article/">Building scalable systems</a></h3>
+            <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime</p> 
+            <a href="#" class="continue">Continue Reading</a>
+          </div>
+        </article>
+      </li>
+    </ul>
   </div>
-</header>
-<main>
-  <section id="featured-articles">
-    <div class="container flow">
-      <ul role="list" class="articles__list flow">
-        <li>
-          <article class="snippet">
-            <div>
-              <h3 class="snippet__title"><a href="/blog/my-first-article/">Building scalable systems</a></h3>
-              <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime</p> 
-              <a href="/blog/my-first-article/" class="continue">Continue Reading</a>
-            </div>
-          </article>
-        </li>
-      </ul>
-    </div>
-  </section> 
-</main>
-<footer class="site-footer container">
-  <p>© 2024 bitstackc<>de. All rights reserved.</p>
-</footer>
+</section> 
 

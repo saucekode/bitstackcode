@@ -307,12 +307,15 @@ section,
   grid-area: meta;
   color: var(--clr-neutral-300);
 }
+.snippet__body{
+  grid-area: body;
+}
 
 .snippet__meta span {
   color: var(--clr-neutral-900);
 }
 
-.snippet .btn {
+.snippet .continue {
   grid-area: button;
 }
 
