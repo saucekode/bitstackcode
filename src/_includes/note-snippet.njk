@@ -1,0 +1,12 @@
+<ul role="list" class="articles__list flow">
+    {%- for post in collections.post | reverse -%}
+        <li>
+            <article class="snippet">
+                <h3 class="snippet__title">{{ post.data.title }}</h3>
+                <p class="snippet__meta">{{post.date | postDate}}</p>
+                <p class="snippet__body">{{ post.data.description }}</p>
+                <a class="continue" href="{{post.url}}" class="continue">Continue Reading</a>
+            </article>
+        </li>
+    {%- endfor -%}
+</ul>

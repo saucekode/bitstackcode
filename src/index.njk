@@ -3,19 +3,19 @@ title: bitstackc<>de
 layout: 'base.njk'
 ---
 
-<section id="featured-articles">
-  <div class="container flow">
-    <ul role="list" class="articles__list flow">
-      <li>
-        <article class="snippet">
-          <div>
-            <h3 class="snippet__title"><a href="/blog/my-first-article/">Building scalable systems</a></h3>
-            <p class="snippet__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime</p> 
-            <a href="#" class="continue">Continue Reading</a>
-          </div>
-        </article>
-      </li>
-    </ul>
-  </div>
-</section> 
+<div class="section container">
+  <ul role="list" class="articles__list flow">
+      {%- for post in collections.featured | reverse -%}
+          <li>
+              <article class="snippet">
+                  <h3 class="snippet__title">{{ post.data.title }}</h3>
+                  <p class="snippet__meta">{{post.date | postDate}}</p>
+                  <p class="snippet__body">{{ post.data.description }}</p>
+                  <a class="continue" href="{{post.url}}" class="continue">Continue Reading</a>
+              </article>
+          </li>
+      {%- endfor -%}
+  </ul>
+  <a class="continue" href="notes" class="continue">View stacks</a>
+<div>
 
