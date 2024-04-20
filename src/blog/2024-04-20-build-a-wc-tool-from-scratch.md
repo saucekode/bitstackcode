@@ -1,5 +1,5 @@
 ---
-title: Create a Custom WC Tool
+title: "DIY: Build a Custom WC Tool"
 description: Recently, I have been looking for personal projects to work on that
   don't follow the backend norm...
 author: Chiamaka Mbah
