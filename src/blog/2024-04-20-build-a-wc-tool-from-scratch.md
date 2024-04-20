@@ -1,5 +1,5 @@
 ---
-title: "DIY Word Count: Create a Custom wc Tool using Java"
+title: Create a Custom WC Tool
 description: "WC short for word count is a terminal utility tool used for
   counting words, characters "
 author: Chiamaka Mbah
