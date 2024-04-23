@@ -40,5 +40,6 @@ Once we can achieve all five requirements, then our tool is ready for **Go-Live*
 ### Coding time
 Set the standard input. I will be using BufferedReader, it's more efficient and performs well with larger files.
 
-`BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+`BufferedReader wctoolReader = new BufferedReader(new InputStreamReader(System.in));
 `
+I will be using Enums to represent the options for our prompts. 
