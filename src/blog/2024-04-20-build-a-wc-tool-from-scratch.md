@@ -13,7 +13,7 @@ For my first article, I will be attempting the [wc tool challenge](https://codin
 
 Let's go!
 
-### A very short intro to wc tool
+## A very short intro to wc tool
 
 WC short for word count is a terminal utility tool used for counting words, characters, bytes, and lines in a file or standard input. 
 
@@ -21,5 +21,19 @@ Yeah. That's it. If you're interested in an in-depth explanation of the workings
 
 `man wc`
 
-### The thought process
-Now you understand what the wc util does, let's set the foundation for what we're about to build.
+Now you understand what we're trying to build, let's begin.
+
+## Requirements
+
+Every application should follow a set of instructions or guidelines to determine the finished product. For our wc tool, let's outline its capabilities.
+
+#### What should our tool be able to do?
+
+- Display the number of bytes in a file or from standard input using a specific option.
+- Display the number of lines in a file or from standard input using a specific option.
+- Display the number of words in a file or from standard input using a specific option.
+- Display the number of characters in a file or from standard input using a specific option.
+- Display all of the above statistics without requiring a specific option.
+
+Once we can achieve all five requirements, then our tool is ready for **Go-Live**. For this app, we will be running unit tests.
+
