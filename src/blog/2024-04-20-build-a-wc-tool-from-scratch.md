@@ -1,5 +1,5 @@
 ---
-title: "DIY: Build a Custom WC Tool"
+title: Build a Custom WC Tool
 description: Recently, I have been looking for personal projects to work on that
   don't follow the backend norm...
 author: Chiamaka Mbah
@@ -37,3 +37,8 @@ Every application should follow a set of instructions or guidelines to determine
 
 Once we can achieve all five requirements, then our tool is ready for **Go-Live**. For this app, we will be running unit tests.
 
+### Coding time
+Set the standard input. I will be using BufferedReader, it's more efficient and performs well with larger files.
+
+`BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+`
