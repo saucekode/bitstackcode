@@ -289,80 +289,17 @@ main{
   color: var(--clr-neutral-900);
 }
 
-.snippet .continue {
-  grid-area: button;
-  color: var(--hd-primary-200);
-  padding-top: 0.3em;
-}
-
 .snippet__title {
   color: var(--clr-neutral-900);
   font-size: 1em;
+  font-weight: bold;
   text-decoration: underline;
 }
 
-.snippet__title a {
-  color: inherit;
-  text-decoration: none;
-}
-
-.snippet__title a:hover,
-.snippet__title a:focus {
-  color: var(--clr-primary-500);
-} 
 
 .logo-design{
   text-decoration: none;
   font-size: 1.3em;
   color: var(--hd-primary-200);
   font-weight: bold;
-}
-
-
-.btn {
-  cursor: pointer;
-  text-decoration: none;
-  display: inline-block;
-  line-height: 1;
-  padding: 0.75em 1.75em;
-  border-radius: 0.25em;
-  align-self: start;
-  justify-self: start;
-}
-
-.btn:focus {
-  outline: 0.125em solid var(--clr-primary-400);
-  outline-offset: 0.25em;
-}
-
-.btn--primary {
-  background: var(--clr-primary-400);
-  color: var(--clr-neutral-100);
-  font-weight: var(--fw-700);
-  border: 2px solid var(--clr-primary-400);
-}
-.btn--primary:hover,
-.btn--primary:focus {
-  background: var(--clr-primary-500);
-  border-color: var(--clr-primary-500); 
-}
-
-.btn--neutral {
-  background-color: var(--clr-neutral-100);
-  color: var(--clr-neutral-900);
-  font-weight: var(--fw-700);
-  border: 2px solid var(--clr-neutral-900);
-}
-
-.btn--neutral:hover,
-.btn--neutral:focus {
-  color: var(--clr-neutral-100);
-  background-color: var(--clr-neutral-900);
-}
-
-.continue{
-  text-decoration: none;
-  line-height: 3px;
-  color: #E3BC9A;
-  
 }
