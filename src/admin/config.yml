@@ -3,9 +3,9 @@ backend:
   branch: dev
 media_folder: images/upload
 collections:
-- name: "blog"
-  label: "Blog"
-  folder: "src/blog"
+- name: "note"
+  label: "Note"
+  folder: "src/note"
   create: true
   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   fields:
