@@ -209,7 +209,8 @@ main{
 }
 
 .nav-list a:focus,
-.nav-list a:hover {
+.nav-list a:hover,
+.active {
   border-bottom: 5px solid var(--hd-primary-200);
 }
 
