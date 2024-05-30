@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root {
   --fs-300: 0.9375rem;
   --fs-400: 1.0625rem;
@@ -5,17 +8,14 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Playfair Display", serif;
+  --ff-body: "Nunito Sans", sans-serif;
+  --ff-heading: "Poppins", sans-serif;
 
   --fw-400: 400;
   --fw-700: 700;
   --fw-900: 900;
 
-  --clr-primary-200: #e3bc9a4a;
-  --clr-primary-300: #E3BC9A;
-  --clr-primary-400: #E3BC9A;
-  --clr-primary-500: #E3BC9A;
+  --hd-primary-200: #FF7043;
 
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsla(0, 0%, 50%, 1);
@@ -72,13 +72,6 @@ html:focus-within {
   scroll-behavior: smooth;
 }
 
-/* Set core body defaults */
-body {
-  min-height: 100vh;
-  text-rendering: optimizeSpeed;
-  line-height: 1.5;
-}
-
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -123,13 +116,14 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
   color: var(--clr-neutral-900);
+  height: 100vh;
 }
 
 h1,
 h2,
 h3 {
   font-family: var(--ff-heading);
-  font-weight: var(--fw-900);
+  font-weight: var(--fw-700);
   line-height: 1.1;
 }
 
@@ -137,10 +131,6 @@ strong {
   font-weight: var(--fw-700);
 }
 
-section,
-.section {
-  padding: min(10vh, 10em) 0;
-}
 
 
 
@@ -152,18 +142,12 @@ section,
    and add margin to the top for proper
    spacing */
 
-.flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1em);
-}
-
 .container {
   margin-inline: auto;
-  padding-inline: 1.5em;
-  max-width: 72rem;
-}
+  max-width: 60rem;
+  min-height: 85vh;
+  /* padding-bottom: 10em; */
 
-.container--narrow {
-  max-width: 65rem;
 }
 
 .flex-group {
@@ -191,13 +175,12 @@ section,
   font-size: var(--fs-600);
 }
 
-
 /* //////////////////////
   Header
   /////////////////////// */
 
 .page-header {
-  padding: 2em 0;
+  padding: 2em 0 0 0;
 }
 
 .page-header__content {
@@ -226,35 +209,12 @@ section,
   /////////////////////// */
 
 .site-footer {
-  --logo-color: currentColor;
-  padding: 4em 0;
-  color: #E3BC9A;
-  text-align: center;
+  color: var(--hd-primary-200);
 }
 
 /* //////////////////////
   Homepage
   /////////////////////// */
-
-.hero > div {
-  display: grid;
-  grid-auto-flow: row;
-  grid-auto-columns: 1fr;
-  align-items: center;
-  gap: 3em;
-}
-
-.hero__image {
-  width: 100%;
-  /* max-height: max(15rem, 40vh); */
-  object-fit: cover;
-}
-
-@media (min-width: 45em) {
-  .hero > div {
-    grid-auto-flow: column;
-  }
-}
 
 .featured-articles {
   background-color: var(--clr-primary-200);
@@ -262,7 +222,6 @@ section,
 
 .articles__list {
   --flow-spacer: 3rem;
-  margin: 6rem 0;
 }
 
 /* //////////////////////

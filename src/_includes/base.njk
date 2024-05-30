@@ -8,13 +8,15 @@
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  {% include 'header.njk' %}
-  <main>
-    {{content | safe}}
-  </main>
-  <footer>
-    {% include 'footer.njk' %}
-  </footer>
+  <div class="hero container">
+    {% include 'header.njk' %}
+    <main>
+      {{content | safe}}
+    </main>
+    <footer>
+      {% include 'footer.njk' %}
+    </footer>
+  </div>
 
   <script>
         if (window.netlifyIdentity) {
