@@ -150,6 +150,14 @@ main{
     font-size: 0.85em;
    }
 
+   footer div{
+    line-height: 1.8em;
+   }
+
+   footer div p:first-child{
+    font-style: italic;
+   }
+
 .container {
   width: inherit;
   min-height: inherit;
