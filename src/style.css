@@ -116,7 +116,10 @@ body {
   font-family: var(--ff-body);
   font-size: var(--fs-400);
   color: var(--clr-neutral-900);
-  height: 100vh;
+  min-height: 100vh;
+  width: 50em;
+  margin-inline: auto;
+  padding-bottom: 1.5em;
 }
 
 h1,
@@ -131,8 +134,10 @@ strong {
   font-weight: var(--fw-700);
 }
 
-
-
+main{
+  flex: 1;
+  padding: 2em 0;
+}
 
 /* //////////////////////
   Utility Classes
@@ -141,14 +146,19 @@ strong {
 /* select all direct childen of .flow
    and add margin to the top for proper
    spacing */
+   footer{
+    font-size: 0.85em;
+   }
 
 .container {
-  margin-inline: auto;
-  max-width: 60rem;
-  min-height: 85vh;
-  /* padding-bottom: 10em; */
+  width: inherit;
+  min-height: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 
 }
+
 
 .flex-group {
   display: flex;
@@ -200,8 +210,7 @@ strong {
 
 .nav-list a:focus,
 .nav-list a:hover {
-  color: var(--clr-primary-400);
-  text-decoration: underline;
+  border-bottom: 5px solid var(--hd-primary-200);
 }
 
 /* //////////////////////
@@ -211,6 +220,7 @@ strong {
 .site-footer {
   color: var(--hd-primary-200);
 }
+
 
 /* //////////////////////
   Homepage
@@ -244,7 +254,8 @@ strong {
 
 .snippet {
   display: grid;
-  gap: 1em;
+  width: 25em;
+  gap: 0.4em;
   grid-template-areas:
     "image"
     "title"
@@ -261,13 +272,17 @@ strong {
 }
 .snippet__title {
   grid-area: title;
+  cursor: pointer;
 }
 .snippet__meta {
   grid-area: meta;
   color: var(--clr-neutral-300);
+  font-size: 0.7em;
+  font-style: italic;
 }
 .snippet__body{
   grid-area: body;
+  font-size: 0.88em;
 }
 
 .snippet__meta span {
@@ -276,11 +291,14 @@ strong {
 
 .snippet .continue {
   grid-area: button;
+  color: var(--hd-primary-200);
+  padding-top: 0.3em;
 }
 
 .snippet__title {
   color: var(--clr-neutral-900);
-  font-size: var(--fs-500);
+  font-size: 1em;
+  text-decoration: underline;
 }
 
 .snippet__title a {
@@ -296,22 +314,10 @@ strong {
 .logo-design{
   text-decoration: none;
   font-size: 1.3em;
-  color: var(--clr-primary-400);
+  color: var(--hd-primary-200);
   font-weight: bold;
 }
 
-@media (min-width: 45em) {
-  .snippet {
-    grid-template-areas:
-      "title image"
-      "meta image"
-      "body image"
-      "button image";
-    grid-column-gap: 4em;
-    grid-template-columns: 1fr 40%;
-    grid-template-rows: min-content min-content min-content 1fr;
-  }
-}
 
 .btn {
   cursor: pointer;

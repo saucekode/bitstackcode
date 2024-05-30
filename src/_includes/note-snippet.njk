@@ -3,10 +3,9 @@
         <li>
         
             <article class="snippet">
-                <h3 class="snippet__title">{{ post.data.title }}</h3>
+                <h3 href="{{post.url}}" class="snippet__title">{{ post.data.title }}</h3>
                 <p class="snippet__meta">{{post.date | postDate}}</p>
                 <p class="snippet__body">{{ post.data.description }}</p>
-                <a class="continue" href="{{post.url}}" class="continue">Continue Reading</a>
             </article>
         </li>
     {%- endfor -%}
