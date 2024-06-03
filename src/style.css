@@ -249,6 +249,7 @@ main{
 
   .main-article {
     margin-bottom: 3rem;
+    font-family: var(--ff-body);
   }
 
   .main-article__figure figcaption {
