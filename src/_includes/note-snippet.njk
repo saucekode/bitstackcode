@@ -1,7 +1,6 @@
 <ul role="list" class="articles__list flow">
     {%- for post in collections.post | reverse -%}
         <li>
-        
             <article class="snippet">
                 <a href="{{post.url}}" class="snippet__title">{{ post.data.title }}</a>
                 <p class="snippet__meta">{{post.date | postDate}}</p>

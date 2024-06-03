@@ -5,9 +5,8 @@ media_folder: images/upload
 collections:
 - name: "note"
   label: "Note"
-  folder: "src/note"
+  folder: "src"
   create: true
-  slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
   fields:
     - { label: "Title", name: "title", widget: "string" }
     - { label: "Description", name: "description", widget: "string" }
