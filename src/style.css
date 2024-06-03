@@ -250,6 +250,7 @@ main{
   .main-article {
     margin-bottom: 3rem;
     font-family: var(--ff-body);
+    background-color: red;
   }
 
   .main-article__figure figcaption {

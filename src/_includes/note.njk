@@ -5,10 +5,12 @@ layout: 'base.njk'
 <article class="main-article">
   <div>
 
-  <h1 class="article-title">
-    {{title}}
-  </h1>
+    <h1 class="article-title">
+      {{title}}
+    </h1>
   
-  {{content | safe}}
+    <div>
+      {{content | safe}}
+    </div>
   </div>
 </article>
