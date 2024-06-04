@@ -5,6 +5,6 @@ date: 2024-06-04T20:42:00.000Z
 tags:
   - post
   - devops
-layout: note.json
+layout: article.njk
 ---
 working working
