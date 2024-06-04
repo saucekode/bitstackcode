@@ -5,7 +5,7 @@ media_folder: images/upload
 collections:
 - name: "note"
   label: "Note"
-  folder: "src/*"
+  folder: "src"
   create: true
   slug: "{{art_title}}"
   fields:
