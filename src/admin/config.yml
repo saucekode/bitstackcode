@@ -5,11 +5,12 @@ media_folder: images/upload
 collections:
 - name: "note"
   label: "Note"
-  folder: "src"
+  folder: "src/*"
   create: true
+  slug: "{{art_title}}"
   fields:
     - { label: "Title", name: "art_title", widget: "string" }
     - { label: "Description", name: "description", widget: "string" }
     - { label: "Date", name: "date", widget: "datetime" }
-    - { label: "Tags", name: "tags", widget: "list", default: ["post","devops", "backend", "systemdesign"] }
+    - { label: "Tags", name: "tags", widget: "list", default: ["post", "devops", "backend", "systemdesign"] }
     - { label: "Body", name: "body", widget: "markdown" }

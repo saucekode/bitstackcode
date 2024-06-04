@@ -1,5 +1,4 @@
 ---
-title: {{art_title}}
 layout: 'base.njk'
 ---     
 
@@ -12,8 +11,7 @@ layout: 'base.njk'
         <a href="/tags/{{tags[1]}}">#{{tags[1]}}</a>
     </div>
   
-    <div>
-      {{content | safe}}
-    </div>
+    {{content | safe}}
+
   </div>
 </article>

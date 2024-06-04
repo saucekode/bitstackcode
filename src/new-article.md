@@ -1,5 +1,4 @@
 ---
-layout: note.njk
 art_title: A new beginning
 description: Recently, I have been looking for personal projects to work on that
   don't follow the backend norm -- CRUD. Fortunately, I stumbled on...

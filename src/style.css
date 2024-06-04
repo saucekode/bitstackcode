@@ -273,7 +273,7 @@ main{
   gap: 0.4em;
   grid-template-areas:
     "image"
-    "title"
+    "art_title"
     "meta"
     "body"
     "button";
@@ -286,7 +286,7 @@ main{
   object-fit: cover;
 }
 .snippet__title {
-  /* grid-area: title; */
+  /* grid-area: art_title; */
   cursor: pointer;
 }
 .snippet__meta {
