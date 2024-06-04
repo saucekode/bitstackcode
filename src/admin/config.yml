@@ -12,6 +12,6 @@ collections:
     - { label: "Title", name: "art_title", widget: "string" }
     - { label: "Description", name: "description", widget: "string" }
     - { label: "Date", name: "date", widget: "datetime" }
-    - { label: "Tags", name: "tags", widget: "list", default: ["post", "devops", "backend", "systemdesign"] }
+    - { label: "Tags", name: "tags", widget: "list", default: ["post", "devops", "backend", "systemdesign", "life"] }
     - { label: "Body", name: "body", widget: "markdown" }
     - { label: "Layout", name: "layout", widget: "hidden", default: "article.njk" }
