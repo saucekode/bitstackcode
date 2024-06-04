@@ -1,10 +1,19 @@
+---
+title: {{art_title}}
+layout: 'base.njk'
+---     
+
 <article class="main-article">
   <div>
 
     <h1 class="article-title">{{art_title}}</h1>
+    <div class="snippet__meta">
+        <p>{{date | postDate}}</p>
+        <a href="/tags/{{tags[1]}}">#{{tags[1]}}</a>
+    </div>
   
     <div>
-      {{body}}
+      {{content | safe}}
     </div>
   </div>
 </article>
