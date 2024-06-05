@@ -246,11 +246,11 @@ main{
   /////////////////////// */
 
   .main-article {
-    padding-top: 3em;
+    padding-top: 2em;
     margin-bottom: 3rem;
     font-family: var(--ff-body);
     font-size: var(--fs-250);
-    width: 80%;
+    width: 70%;
   }
 
   .main-article__figure figcaption {
@@ -286,7 +286,7 @@ main{
   display: flex;
   color: var(--clr-neutral-300);
   font-size: 0.7em;
-  padding: 0.7em 0;
+  margin: 0.3em 0 3.2em 0;
   font-style: italic;
 }
 .snippet__meta a{
@@ -329,9 +329,6 @@ main{
   width: 100%;
 }
 
-.me__content{
-
-}
 
 .page-header__content div p{
   font-size: 1em;
@@ -368,6 +365,17 @@ footer div p:last-child a{
     font-size: 0.75em;
   }
 
+  .article-content p{
+    font-size: 0.75em;
+  }
+
+  .article-title{
+    font-size: 1em;
+  }
+  .main-article{
+    width: 100%;
+  }
+
 }
 
 @media (min-width: 37.5em) and (max-width: 56.25em) {
@@ -396,6 +404,18 @@ footer div p:last-child a{
 
   .snippet, .me__content{
     font-size: 0.85em;
+  }
+
+  .main-article{
+    width: 100%;
+  }
+
+  .article-content p{
+    font-size: 0.92em;
+  }
+
+  .article-title{
+    font-size: 1.1em;
   }
 }
 
