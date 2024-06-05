@@ -6,15 +6,16 @@
   <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
   <title>{{art_title}}</title>
   <link rel="stylesheet" href="/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <section class="hero container">
+  <section class="container">
     {% include 'header.njk' %}
-    <main>
+    <main class="page-wrapper">
       {{content | safe}}
     </main>
-    <footer>
+    <footer class="page-wrapper">
       {% include 'footer.njk' %}
     </footer>
   </section>
@@ -30,6 +31,17 @@
           });
         }
     </script>
-    <script src="script.js"></script>
+    <script>
+      console.log("connected here")
+     $(function(){
+        var current = location.pathname;
+        $('.nav-list li a').each(function(){
+            var $this = $(this);
+            if($this.attr('href').indexOf(current) !== -1){
+                $this.addClass('active');
+            }
+        })
+    })
+    </script>
 </body>
 </html>

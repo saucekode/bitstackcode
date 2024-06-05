@@ -11,7 +11,9 @@ layout: 'base.njk'
         <a href="/tags/{{tags[1]}}">#{{tags[1]}}</a>
     </div>
   
-    {{content | safe}}
+    <div class="article-content">
+     {{content | safe}}
+    </div>
 
   </div>
 </article>
