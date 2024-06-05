@@ -315,11 +315,10 @@ main{
   text-decoration: underline;
 }
 
-
-.logo-design{
-  text-decoration: none;
-  font-size: 1.3em;
-  color: var(--hd-primary-200);
-  font-weight: bold;
+.logo-design {
+  width: 560px;
+  height: auto;
+  margin-left: -5px;
 }
+
 
