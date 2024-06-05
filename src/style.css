@@ -147,16 +147,13 @@ main{
    and add margin to the top for proper
    spacing */
    footer{
-    font-size: 0.85em;
+    font-size: 0.7em;
    }
 
    footer div{
-    line-height: 1.8em;
+    line-height: 1.6em;
    }
 
-   footer div p:first-child{
-    font-style: italic;
-   }
 
 .container {
   width: inherit;
