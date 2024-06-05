@@ -286,7 +286,7 @@ main{
   display: flex;
   color: var(--clr-neutral-300);
   font-size: 0.7em;
-  margin: 0.3em 0 3.2em 0;
+  padding: 0.3em 0 1.2em 0;
   font-style: italic;
 }
 .snippet__meta a{
@@ -340,7 +340,7 @@ footer div p:last-child a{
 
 @media  (max-width: 37.5em){
   .logo-design{
-    width: 200px;
+    width: 230px;
   }
   .nav-list li a{
     font-size: 0.6em;
@@ -366,11 +366,11 @@ footer div p:last-child a{
   }
 
   .article-content p{
-    font-size: 0.75em;
+    font-size: 0.85em;
   }
 
   .article-title{
-    font-size: 1em;
+    font-size: 1.2em;
   }
   .main-article{
     width: 100%;
