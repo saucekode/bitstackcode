@@ -1,7 +1,8 @@
 ---
 art_title: The Journey Begins
 description: Lately, I have been busy --- busy exploring the world of DevOps. At
-  the start of the year, I wanted to try out something besides coding...
+  the start of the year, I wanted to try out something besides coding. While I
+  still actively code...
 date: 2024-06-04T21:29:00.000Z
 tags:
   - post
