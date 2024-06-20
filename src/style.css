@@ -79,6 +79,7 @@ html:focus-within {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  color: var(--hd-primary-200);
 }
 
 /* Make images easier to work with */
@@ -354,10 +355,6 @@ footer div p:last-child a{
 
   .page-header__content div p{
     font-size: 0.7em;
-  }
-
-  .article-content p a{
-    color: #FF7043;
   }
   
   .articles__list{
