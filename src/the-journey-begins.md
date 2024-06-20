@@ -17,6 +17,6 @@ Fortunately, I came across the [SheCodeAfrica](https://shecodeafrica.org/) cloud
 
 Although I'm going for DevOps, the program seems to be focused on the cloud, specifically AWS. It's been interesting so far, but what I find really fascinating is the vast estate of resources that is Amazon Web Services. It keeps unraveling, and no, I won't stress myself to know it all.
 
-I'm really enjoying DevOps and looking forward to sharing my experience here -- holding nothing back.
+I'm really enjoying DevOps and looking forward to sharing my experience here.
 
 Alrighty! Ciao, till my next note 🙌.
