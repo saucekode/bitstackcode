@@ -356,6 +356,9 @@ footer div p:last-child a{
     font-size: 0.7em;
   }
 
+  .article-content a{
+    color: #FF7043;
+  }
   
   .articles__list{
     width: 300px;
