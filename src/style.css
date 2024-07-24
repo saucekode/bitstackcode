@@ -321,8 +321,10 @@ main{
 .logo-design {
   width: 600px;
   height: auto;
+  color: var(--hd-primary-200);
+  font-weight: bold;
+  font-size: 2em;
   /* height: auto; */
-  margin-left: -4px;
 }
 
 .logo-design img{
