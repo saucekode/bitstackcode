@@ -28,7 +28,11 @@ One of the question that constantly popped in my mind was: *why Linux for DevOps
 
 Well, Linux has built-in support for containerization and virtualization, which are core DevOps practices. It provides features like **cgroups** and **namespaces** which are essential and fundamental to these practices. 
 
-**Namespaces** provide isolation. This is the underlying functionality of Docker. Containers live in this bubble where they have their own processes, network interfaces, and file systems. Containers think they are the system, when in reality, they are just another process running in your local machine that has been allocated resources by cgroups or control groups. Namespaces offer the process abstraction relative to both your machine and between containers, cgroups allocate resources and manage how these resources are distributed.
+**Namespaces** provide isolation. This is the underlying functionality of Docker. Containers live in this bubble where they have their own processes, network interfaces, and file systems. 
+
+Containers think they are the system, when in reality, they are just another process running in your local machine that has been allocated resources by cgroups or control groups. 
+
+Namespaces offer the process abstraction relative to both your machine and between containers, cgroups allocate resources and manage how these resources are distributed.
 
 *Whoosh!* There is a lot to unpack here, but we will stay on course. 
 
