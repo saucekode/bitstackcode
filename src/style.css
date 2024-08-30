@@ -341,6 +341,14 @@ footer div p:last-child a{
   color: var(--hd-primary-200);
 }
 
+code{
+  padding: 4px 5px;
+  background: #00000078;
+  color: #fff;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
 @media  (max-width: 37.5em){
   .logo-design{
     width: 230px;
