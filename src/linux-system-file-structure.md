@@ -18,19 +18,19 @@ For the next two weeks, I’ll be focusing on Bash.
 
 Enough bragging now.
 
-On my bash study, I’m starting with **Linux**. I already know a few linux commands but haven’t really gone in-depth and that is when I came across this book - “*Linux basics for hackers*” from Gwyneth of [Learntocloud.guide](http://Learntocloud.guide) and guys! I can’t believe I finished chapter one in one sitting and didn’t even blink. I must say, the book is interesting and easy to follow.
+On my bash study, I’m starting with **Linux**. I already know a few Linux commands but haven’t really gone in-depth and that is when I came across this book — “*Linux basics for hackers*” from Gwyneth of [Learntocloud.guide](http://Learntocloud.guide) and guys! I can’t believe I finished chapter one in one sitting and didn’t even blink. Likewise, I must say, the book is interesting and easy to follow.
 
-If you’re looking to learn Linux in an engaging and interactive way, I believe you should consider taking a look, but quick disclaimer, it’s originally written for hackers and you might see stuff like “Kali”, and ***dem*** hacker terms, plus, commands which I guess are unique to hacking, but as long as you have a unix-based terminal, you can follow along.
+If you’re looking to learn Linux in an engaging and interactive way, I believe you should consider taking a look. But quick disclaimer, it’s originally written for hackers, and you might see stuff like “Kali”, and dem hacker terms, plus, commands which I guess are unique to hacking. But as long as you have a Unix-based terminal, you can follow along.
 
 In today’s note, I’ll be talking about the **Linux system file structure**. 
 
-One of the question that constantly popped in my mind was: *why Linux for Devops? Windows? Macos? What about them?*
+One of the question that constantly popped in my mind was: *why Linux for DevOps? Windows? macOS? What about them?*
 
-Well, Linux has built-in support for containerization and virtualization which are core Devops practices. It provides features like **cgroups** and **namespaces** which are essential and fundamental to these practices. 
+Well, Linux has built-in support for containerization and virtualization, which are core DevOps practices. It provides features like **cgroups** and **namespaces** which are essential and fundamental to these practices. 
 
-**Namespaces** provide isolation. This is the underlying functionality of Docker. Containers live in this bubble where they have their own processes, network interfaces, and filesystems, and think they are the system, when in reality, they are just another process running in your local machine that has been allocated resources by **cgroups or control groups.** While namespaces offer the process abstraction relative to both your machine and between containers, cgroups allocate resources and manage how these resources are distributed.
+**Namespaces** provide isolation. This is the underlying functionality of Docker. Containers live in this bubble where they have their own processes, network interfaces, and file systems. Containers think they are the system, when in reality, they are just another process running in your local machine that has been allocated resources by cgroups or control groups. Namespaces offer the process abstraction relative to both your machine and between containers, cgroups allocate resources and manage how these resources are distributed.
 
-*Whoosh!* There is a lot to unpack here but we will stay on course. 
+*Whoosh!* There is a lot to unpack here, but we will stay on course. 
 
 Now, to the note of the day —- Linux system file structure.
 
