@@ -4,6 +4,7 @@ description: In the past three weeks, I have been learning about bash scripting,
   and with every new knowledge comes practice in order...
 date: 2024-11-18T15:53:00.000Z
 tags:
+  - post
   - devops
 layout: article.njk
 ---
