@@ -7,7 +7,7 @@ tags:
   - devops
 layout: article.njk
 ---
-In the past three weeks, I have been learning about bash scripting, and with every new knowledge comes practice in order to make it stick. 
+In the past three weeks, I have been learning about bash scripting, and with every new knowledge, practice is important, so the knowledge sticks. 
 
 Today, I'll be starting the **Project Bash** series where I will be working on tasks on Bash programming and documenting my approach, errors, and the fixes. Every script can be found on this [repository.](https://github.com/saucekode/shell-script.git)
 
