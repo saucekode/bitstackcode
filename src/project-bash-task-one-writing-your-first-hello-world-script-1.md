@@ -1,7 +1,7 @@
 ---
 art_title: 'Project Bash: Task One - Writing Your First "Hello, World!" Script'
 description: In the past few months, I have been learning about bash scripting,
-  and with every new knowledge comes practice in order...
+  and with every new knowledge comes practice... in order...
 date: 2024-11-19T09:56:00.000Z
 tags:
   - post
